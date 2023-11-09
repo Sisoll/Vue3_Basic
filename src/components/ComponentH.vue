@@ -1,8 +1,9 @@
 <!--
-資料的單項及雙向綁定
-{{}}
-
-v-model => 針對表單的綁定，其會忽略原有的value、checked、selected等屬性。
+v-model 延伸=> 針對表單的綁定，其會忽略原有的value、checked、selected等屬性。
+  修飾子
+  v-model.lazy  (移開該處才會動作更新)
+  v-model.number  (不然js會把數字當成字串)
+  v-model.trim  (過濾頭尾)
 
 
 ref() => 如果是物件型態需要 .value 才能取出值，如果是基本型態可以直接用。

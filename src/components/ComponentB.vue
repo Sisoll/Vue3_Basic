@@ -3,7 +3,6 @@
 v-if、v-else、  => 直接將其node拿掉
 v-show  => 透過 CSS 的disable呈現畫面與否
 
-
 @click = v-on:click
 
 -->
